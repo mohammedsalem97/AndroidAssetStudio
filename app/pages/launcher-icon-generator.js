@@ -87,7 +87,7 @@ export class LauncherIconGenerator extends BaseGenerator {
         }),
         (backColorField = new studio.ColorField('backColor', {
           title: 'Background color',
-          defaultValue: '#448aff'
+          defaultValue: 'rgba(0,0,0,0)'
         })),
         new studio.BooleanField('crop', {
           title: 'Scaling',
